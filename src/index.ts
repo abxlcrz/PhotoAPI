@@ -14,7 +14,7 @@ async function main() {
 main();
 
 app.get('/users', (req, res) => {
-    res.json({
+    return res.json({
         succes: true,
         message: "dou"
     })
